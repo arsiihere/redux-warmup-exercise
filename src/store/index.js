@@ -8,7 +8,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
   }
   if (action.type === "decrement") {
     return {
-      counter: store.counter - 1,
+      counter: state.counter - 1,
     };
   }
 
