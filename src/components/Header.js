@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 
 import { useSelector, useDispatch } from "react-redux";
-import { authAction } from "../store";
+import { authAction } from "../store/auth-slice";
 import classes from "./Header.module.css";
 
 const Header = () => {

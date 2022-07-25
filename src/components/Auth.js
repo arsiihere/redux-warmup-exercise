@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import { useDispatch } from "react-redux";
 
-import { authAction } from "../store";
+import { authAction } from "../store/auth-slice";
 
 import classes from "./Auth.module.css";
 
